@@ -1,0 +1,34 @@
+{
+  "folders": [
+    {
+      "name": "docs",
+      "path": "docs"
+    },
+    {
+      "name": "utils",
+      "path": "utils"
+    },
+    {
+      "name": "sonicwave-launcher",
+      "path": "sonicwave-launcher"
+    },
+    {
+      "name": "sonicwave-studio",
+      "path": "sonicwave-studio"
+    },
+    {
+      "name": "sonicwave-control",
+      "path": "sonicwave-control"
+    },
+    {
+      "path": "."
+    }
+  ],
+  "settings": {
+    "sarif-viewer.connectToGithubCodeScanning": "off",
+    // Activer globalement Clang-Tidy pour tout le workspace
+    "C_Cpp.codeAnalysis.clangTidy.enabled": true,
+    // S'assurer que chaque sous-dossier cherche son propre .clang-tidy au plus près
+    "C_Cpp.codeAnalysis.clangTidy.useLogicalPresets": false
+  },
+}
