@@ -5,7 +5,7 @@ author: Matt
 date: 20/11/2026
 ------------------------------------------ */
 
-#include "Synth.h"
+#include "synth.h"
 
 Synth::Synth() {
     // Constructor

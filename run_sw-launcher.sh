@@ -1,0 +1,1 @@
+./sonicwave-launcher/build/sw-launcher

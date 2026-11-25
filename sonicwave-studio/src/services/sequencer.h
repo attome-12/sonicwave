@@ -13,6 +13,9 @@ public:
     Sequencer();
     ~Sequencer();
 
+    void start();
+    void stop();
+
 private:
 
 };
