@@ -3,7 +3,7 @@
 
 
 void setup() {
-  Led led(5);
+  Led led(D5);
   led.begin();
   delay(1000);
   led.AllumeLed();

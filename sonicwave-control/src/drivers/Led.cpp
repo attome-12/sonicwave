@@ -37,3 +37,10 @@ void Led::ToogleLed(){
         AllumeLed();
     }
 };
+
+void Led::ClignoterLed(int del) {
+    AllumeLed();
+    delay(del);
+    EteintLed();
+    delay(del);
+};

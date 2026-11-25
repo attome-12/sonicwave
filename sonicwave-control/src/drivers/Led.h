@@ -17,6 +17,7 @@ public:
     void AllumeLed();
     void EteintLed();
     void ToogleLed();
+    void ClignoterLed(int del);
 
 private:
     uint8_t _pin;
